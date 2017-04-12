@@ -176,3 +176,44 @@ p{
 .right{
     float:right
 }
+
+@media screen and (max-width:640px){
+  header,nav{
+    display: none;
+  }
+  article{
+    width: 100%;
+    float: left;
+    margin: 0;
+    margin-left: 0px !important;
+    font-size: 12;
+  }
+  p{
+     font-size: 13;
+  }
+
+.card{
+  background: #1D202D;
+  font-size:12;
+  width: 240px;
+  padding-bottom:15;
+  border-radius: 4px;
+
+  margin-left:20px;
+  margin-bottom:20px;
+}
+
+.card img{
+  width:200px;
+  border-radius: 5px;
+    padding:10;
+
+}
+.card th{
+  background: #25223c;
+  //border: solid 1px #235;
+  font-size: 16;
+  padding:4
+}
+
+}
