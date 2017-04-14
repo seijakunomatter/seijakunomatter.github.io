@@ -1,0 +1,60 @@
+body{
+  background: #1b1b1b;
+  margin: 0;
+  overflow-y:hidden;
+  height: 100%;
+         transition: all 200 ease-in-out;
+}
+header,hr{
+  width: 100%;
+  position: fixed;
+  top: 0
+}
+header img{
+  width: 200px
+}
+#chararoulette{
+ overflow-x: scroll;
+  overflow:visible;
+  width: 100%;
+         transition: all 200 ease-in-out;
+}
+
+.container-inner {
+       transition: all 200 ease-in-out;
+
+  white-space: nowrap;
+  width: 12010px;
+}
+.imgcon{
+
+  display:inline-block;
+ // border:solid 1px red;
+  opacity: .1;
+   vertical-align: top;
+  margin: 0 0;
+  overflow: hidden;
+  height:600px;
+
+  width: 100px;
+transition: all 500 ease-in-out;
+}
+.imgcon:hover{
+  z-index: 999;
+ //  width: 200px;
+//padding-right:80;
+    overflow: visible;
+ //   height:800px;
+ // margin-top: -100px;
+// background: blue;
+  transition: all 500 ease-in-out;
+ opacity: 1;
+}
+
+.imgcon img{
+     pointer-events: none !important;
+margin:0 -180;
+    height:100%;
+
+       transition: all 200 ease-in-out;
+}
