@@ -47,7 +47,7 @@
       waitForAnimate:false,
      centerMode:true,
     centerPadding:"210px",
-      slidesToShow:10,
+      slidesToShow:1,
       arrows:false,
       initialSlide:19,
       speed:300,
