@@ -1,3 +1,6 @@
+html,body{
+	margin:0;
+}
 @media screen and (max-width:800px){
 	web{
 		display: none;
@@ -29,30 +32,27 @@ header{
 
 
 .container-nav{
-	height: 50px;
+	height: 30px;
 	overflow: visible;
-	text-align: center;
-	width:100%;
+	text-align: center !important;
+
 }
 .container-nav div{
 		color:darkgray;
 	cursor: pointer;
-	/*! display: inline; */
-/*! width:calc(100% / 22) !important; */
 	font-size: 12;
 	font-family: Oswald,sans-serif;
-	//	width:calc(100%+-500px)
+
 }
 .container-nav .slick-current{
 		opacity: 1;
 	z-index: 999;
-
-	font-size: 20px;
+	font-size: 12px;
 	font-weight: 900;
-	color:white
+	color:gray;
 }
 .container-inner{
-	height: calc(100% + -300px);
+	/*! height: calc(100% + -300px); */
 	overflow: visible;
 
 }
@@ -66,7 +66,8 @@ header{
 	opacity: .2;
 	transition: opacity 1s ease-in-out;
 pointer-events: none;
-margin:-100 0 0 -170% ;
+margin:-100 0 0 -170%;
+height:100% ;
 max-height: 800px;
 	transition: transform .5s ease-out;
 		transform: scale(.6);
@@ -84,14 +85,91 @@ max-height: 800px;
 	z-index: 999;
 		pointer-events: none;
 }
-
 .slick-center img{
-	transform: scale(1);
+transform: scale(1);
 		opacity: 1;
 }
 
-div:focus {outline:0;}
+
+div:focus {outline:0;
+
+}
 img:focus {outline:0;}
+
+
+#card .slick-track{
+	pointer-events: none;
+}
+#profilia{
+
+	position: absolute;
+	bottom:0;
+	margin: 12;
+height: 60%;
+	max-height: 600px;
+width: 40%;
+		max-width: 500px;
+
+
+
+}
+.carder{
+		border-radius:12px;
+	padding: 12px;
+	font-size: 30;
+	font-family: century gothic;
+	margin: 5px;
+	color: gray;
+		background: #2b2b2b;
+}
+.name{
+	font-weight: 900;
+}
+
+.g{
+		font-size: 14;
+	background: #202020;
+	border-radius: 15px;
+	width:300px;
+	margin:4px;
+		padding: 5px 5px 5px 0;
+}
+.g span{
+		font-weight: 600;
+	background: #000;
+		border-radius: 5px;
+	text-align: right;
+	padding: 5px ;
+	margin:0 12px 0 0 ;
+
+}
+.des{
+	font-size: 12;
+	background: #202020;
+	border-radius: 5px;
+	width:96%;
+	margin:4px;
+	height: 50%;
+		padding: 5px;
+}
+
+.carder .img{
+	position: absolute;
+	top:-25;
+	right: -25;
+	background: black;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,.5)
+}
+.carder img{
+
+margin: -100%
+
+}
+
 
 
 
@@ -127,3 +205,4 @@ max-height:100%;
 #description{
 	height: 500px;
 }
+
