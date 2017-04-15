@@ -2,18 +2,23 @@
 	web{
 		display: none;
 	}
+	body {
+	background:black;
+	color:yellow;
+}
 }
 @media screen and (min-width:801px){
 	mobile{
 		display: none;
 	}
-}
-
-body {
+	body {
 	background:black;
 	overflow: hidden;
 	color:beige;
 }
+}
+
+
 header{
 	display: inline;
 }
@@ -87,3 +92,34 @@ max-height: 800px;
 
 div:focus {outline:0;}
 img:focus {outline:0;}
+
+
+
+/* MOBILE */
+.roster{
+	background: blue;
+  padding: 14px;
+
+}
+
+.roster div{
+	margin:8px;
+	width: 150px;
+	height: 150px;
+	background: red;
+    overflow: hidden;
+    display: inline-block;
+}
+.roster img{
+    max-width:500%;
+max-height:500%;
+	margin:-150%;
+}
+
+
+#character img{
+width:100%;
+}
+#description{
+	height: 500px;
+}

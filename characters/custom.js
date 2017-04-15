@@ -1,6 +1,27 @@
 
          $(document).ready(function(){
 
+
+
+
+
+
+
+           $('.rostim').on('click',function(){
+           var a = this.children[0].attributes.src.value;
+               console.log(a)
+           $('#character').html('<img src="'+a+'">')
+            $("html, body").animate({ scrollTop: $('#character').offset().top }, 1000);
+
+           })  ;
+
+
+
+
+
+
+
+
              var wid = $(window).width()
              var amt = Math.floor(wid/200)
 
