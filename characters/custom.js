@@ -11,7 +11,7 @@
            var a = this.children[0].attributes.src.value;
                console.log(a)
            $('#character').html('<img src="'+a+'">')
-            $("html, body").animate({ scrollTop: $('#character').offset().top }, 1000);
+            $("html, body").animate({ scrollTop: $('#character').offset().top }, 400);
 
            })  ;
 

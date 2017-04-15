@@ -98,14 +98,14 @@ img:focus {outline:0;}
 /* MOBILE */
 .roster{
 	background: blue;
-  padding: 14px;
+  padding: 6px;
 
 }
 
 .roster div{
-	margin:8px;
-	width: 150px;
-	height: 150px;
+	margin:4px;
+	width: 70;
+	height: 70;
 	background: red;
     overflow: hidden;
     display: inline-block;
@@ -116,9 +116,12 @@ max-height:500%;
 	margin:-150%;
 }
 
-
+#character{
+	overflow: hidden;
+}
 #character img{
-width:100%;
+width:150%;
+	margin-left: -25%;
 }
 #description{
 	height: 500px;
