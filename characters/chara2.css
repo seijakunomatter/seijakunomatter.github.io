@@ -3,7 +3,7 @@
 		display: none;
 	}
 	body {
-	background:black;
+	//background:black;
 	color:yellow;
 }
 }
@@ -12,7 +12,7 @@
 		display: none;
 	}
 	body {
-	background:black;
+	//background:black;
 	overflow: hidden;
 	color:beige;
 }
