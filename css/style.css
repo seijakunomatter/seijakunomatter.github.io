@@ -67,7 +67,7 @@ h1{
 .faq .quest{
   font-weight: 900;
   font-size: 18;
-line-height: 3;
+
   position: relative;
   top:-10px;
 
@@ -76,10 +76,7 @@ line-height: 3;
   padding-bottom:8px;
   border-bottom: solid 1px rgba(222,222,255,0.4)
 }
-.twitter{
-position: fixed;
-  right: 15;
-  width: 25%;
-  bottom: 20;
 
+li{
+  margin: 12px
 }
